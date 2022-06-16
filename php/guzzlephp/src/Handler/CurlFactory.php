@@ -19,7 +19,7 @@ use Psr\Http\Message\RequestInterface;
  */
 class CurlFactory implements CurlFactoryInterface
 {
-    public const CURL_VERSION_STR = 'curl_version';
+    public const CURL_VERSION_STR1 = 'curl_version';
 
     /**
      * @deprecated
