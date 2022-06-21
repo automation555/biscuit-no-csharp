@@ -102,7 +102,7 @@ Types = {
 
 var kinds = {
     warrior: [Types.Entities.WARRIOR, "player"],
-    
+        warrior1: [Types.Entities.WARRIOR, "player"],
     rat: [Types.Entities.RAT, "mob"],
     skeleton: [Types.Entities.SKELETON , "mob"],
     goblin: [Types.Entities.GOBLIN, "mob"],
