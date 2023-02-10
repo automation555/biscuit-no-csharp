@@ -66,6 +66,7 @@ public class OrbRunner {
     try {
       try {
         ZK = ZookeeperUtils.connect(orbConf.getOrbZooKeeperQuorum());
+        System.out.println("test");
       } catch (IOException e) {
         logger.info("Failed to connect to zookeeper on " + orbConf.getOrbZooKeeperQuorum());
         logger.error("IOException", e);
